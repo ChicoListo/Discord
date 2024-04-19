@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+    background: #2f3136;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .user-list, .channel-list {
+    margin-bottom: 20px;
+  }
+  
+  .user-list ul, .channel-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .messages {
+    flex: 1;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow-y: scroll;
+  }
+  
+  .input-box {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .input-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .input-box button {
+    padding: 10px 20px;
+    border: none;
+    background: #7289da;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .input-box button:hover {
+    background: #677bc4;
+  }
+  
+  /* Styling for active channels and users can be added */
+  
